@@ -4,8 +4,8 @@ class CreateProductA :
     public Product
 {
 public: 
-    CreateProductA() {};
-    ~CreateProductA() {};
-    void checkProduct() { std::cout << "CreateA" << endl; }
+    CreateProductA() ;
+    ~CreateProductA();
+    void checkProduct();
 };
 
